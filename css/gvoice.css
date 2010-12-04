@@ -1,0 +1,145 @@
+@charset "UTF-8";
+#jq_gvoice_wrapper *
+{
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+#jq_gvoice_wrapper
+{
+    width: 230px;
+    height: 90px;
+    position: relative;
+    z-index: 100;
+}
+#jq_gvoice_error
+{
+    position: absolute;
+    top: 86px;
+    right: 0px;
+    width: 230px;
+    height: 20px;
+    display: none;
+    font-family: sans-serif;
+    font-size: 10px;
+    color: #990000;
+    z-index: 105;
+    text-align: right;
+}
+#jq_gvoice_error span
+{
+    color: #999;
+}
+#jq_gvoice_box
+{
+    background: url(../img/box.png) left center no-repeat;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 164px;
+    height: 78px;
+    display: none;
+    z-index: 101;
+}
+#jq_gvoice_button
+{
+    background: url(../img/button.png) left center no-repeat;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    width: 116px;
+    height: 86px;
+    cursor: pointer;
+    display: none;
+    z-index: 102;
+}
+#jq_gvoice_default
+{
+    position: absolute;
+    top: 13px;
+    right: 0px;
+    width: 110px;
+    height: 78px;
+    font-family: sans-serif;
+    cursor: pointer;
+    display: none;
+    z-index: 103;
+}
+#jq_gvoice_default div.call_me
+{
+    font-size: 24px;
+    line-height: 30px;
+    color: green;
+}
+#jq_gvoice_default div.info
+{
+    font-size: 10px;
+    line-height: 10px;
+    color: #999;
+}
+form#jq_gvoice_form
+{
+    background: url(../img/fade.png) right center repeat-y;
+    text-align: right;
+    width: 177px;
+    height: 67px;
+    font-family: sans-serif;
+    font-size: 10px;
+    line-height: 10px;
+    overflow: hidden;
+    padding-top: 5px;
+    padding-right: 5px;
+    white-space: nowrap;
+    position: absolute;
+    top: 11px;
+    right: 3px;
+    display: none;
+    z-index: 104;
+}
+form#jq_gvoice_form input
+{
+    font-family: sans-serif;
+    font-size: 10px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+form#jq_gvoice_form label
+{
+    display: block;
+}
+form#jq_gvoice_form span.small
+{
+    font-size: 9px;
+    color: #999;
+    line-height: 22px;
+}
+#jq_gvoice_name
+{
+    width: 107px; 
+}
+#jq_gvoice_phone_1
+{
+    width: 29px;
+}
+#jq_gvoice_phone_2
+{
+    width: 30px;
+}
+#jq_gvoice_phone_3
+{
+    width: 38px;
+}
+form#jq_gvoice_form input.dataentry
+{
+    border: 1px solid #AAA;
+    background-color: #FFF;
+    height: 18px;
+}
+#jq_gvoice_submit
+{
+    margin-right: 3px;
+    width: 60px;
+    height: 20px;
+    float: left;
+}
